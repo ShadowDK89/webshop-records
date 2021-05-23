@@ -1,0 +1,23 @@
+#existing-customer-container {
+  display: flex;
+  flex-direction: column;
+  select {
+    margin: 5px 0;
+  }
+  .payment-container {
+    margin-bottom: 10px;
+    .pay-method {
+      list-style-type: none;
+      margin: 5px 0;
+      padding: 0;
+      li {
+        margin: 0;
+        padding: 0;
+
+        input[type="radio"] {
+          margin: 0 2px 0 0;
+        }
+      }
+    }
+  }
+}

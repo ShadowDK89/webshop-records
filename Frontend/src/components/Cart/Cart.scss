@@ -1,0 +1,34 @@
+#cart-container {
+  margin: 0 auto;
+  .cart-item {
+    display: flex;
+    flex-flow: column wrap;
+    width: 200px;
+    margin: 20px 0;
+    img {
+      max-width: 180px;
+    }
+    h3 {
+      margin: 5px 0;
+    }
+    p {
+      margin: 5px 0;
+      span {
+        font-weight: 700;
+      }
+    }
+    .cart-info {
+      .extra-info {
+        div {
+          display: flex;
+          align-items: center;
+          height: 25px;
+        }
+        p {
+          font-weight: 700;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

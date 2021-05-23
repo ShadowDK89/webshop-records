@@ -1,0 +1,22 @@
+#customer-form {
+  display: flex;
+  flex-flow: column wrap;
+  width: 270px;
+  margin-top: 10px;
+  button {
+    margin: 10px 0;
+  }
+  .pay-method {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+    li {
+      margin: 0;
+      padding: 0;
+
+      input[type="radio"] {
+        margin: 0 2px 0 0;
+      }
+    }
+  }
+}

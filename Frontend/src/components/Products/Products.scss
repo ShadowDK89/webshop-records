@@ -1,0 +1,39 @@
+#product-container {
+  background: rgb(218, 218, 218);
+  height: 100vh;
+  width: 100%;
+  #product-list-heading {
+    text-align: center;
+  }
+  #product-list {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    .product-card {
+      width: 200px;
+      height: 370px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 15px 35px;
+
+      a {
+        img {
+          width: 200px;
+        }
+      }
+      h3 {
+        margin: 10px 0 0 0;
+      }
+      p {
+        margin: auto 0;
+      }
+      .product-price {
+        font-size: 22px;
+        font-weight: 600;
+        margin: auto 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+#admin-product-container {
+  width: 500px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  #admin-product-form {
+    display: flex;
+    flex-direction: column;
+
+    #admin-form-color {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      #color-container {
+        display: flex;
+        flex-flow: column wrap;
+        height: 50px;
+        width: 350px;
+        div {
+          width: 192px;
+        }
+      }
+    }
+    #admin-form-format {
+      display: flex;
+      width: 60%;
+      flex-flow: column wrap;
+      padding: 10px 0;
+      label {
+        margin-right: 5px;
+      }
+    }
+    #admin-form-genre {
+      display: flex;
+      width: 60%;
+      flex-flow: column wrap;
+      padding-bottom: 15px;
+
+      #genre-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 350px;
+
+        div {
+          width: 45%;
+        }
+      }
+    }
+    textarea {
+      resize: none;
+    }
+    #track-container {
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+      padding-bottom: 15px;
+      button {
+        width: 120px;
+        height: 30px;
+        margin: 15px 0;
+      }
+      .track-input {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        label {
+          padding-right: 5px;
+        }
+        input {
+          width: 150px;
+          margin-bottom: 10px;
+          margin-right: auto;
+        }
+        input[type="number"] {
+          width: 60px;
+          margin-right: auto;
+        }
+        button {
+          margin: 0;
+          width: 90px;
+          height: 25px;
+        }
+      }
+    }
+    button {
+      margin-top: 20px;
+    }
+  }
+}
